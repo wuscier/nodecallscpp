@@ -1,0 +1,13 @@
+{
+  "name": "nodeaddon",
+  "version": "1.0.0",
+  "description": "nodejs calls cpp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "author": "wuxu",
+  "license": "MIT",
+  "gypfile": true
+}
